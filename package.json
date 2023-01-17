@@ -1,8 +1,8 @@
 {
-  "name": "balloon-editor",
+  "name": "Psa/balloon-editor",
   "author": "CKSource",
   "description": "A custom CKEditor 5 build made by the CKEditor 5 online builder.",
-  "version": "0.0.2",
+  "version": "1.0",
   "license": "SEE LICENSE IN LICENSE.md",
   "private": false,
   "main": "./build/ckeditor.js",
@@ -30,6 +30,10 @@
     "terser-webpack-plugin": "^4.2.3",
     "webpack": "^5.75.0",
     "webpack-cli": "^4.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/World-Architects/balloon-editor.git"
   },
   "scripts": {
     "build": "webpack --mode production"
